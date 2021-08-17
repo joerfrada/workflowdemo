@@ -31,9 +31,16 @@
               "src/assets"
             ],
             "styles": [
-              "src/styles.scss"
+              "src/assets/libs/fontawesome/css/all.min.css",
+              "src/styles.scss",
+              "src/assets/libs/orgcharts/jquery.orgchart.css",
+              "src/assets/libs/sweetalert2/sweetalert2.min.css"
             ],
-            "scripts": []
+            "scripts": [
+              "src/assets/libs/jquery/dist/jquery.min.js",
+              "src/assets/libs/orgcharts/jquery.orgchart.js",
+              "src/assets/libs/sweetalert2/sweetalert2.min.js"
+            ]
           },
           "configurations": {
             "production": {
